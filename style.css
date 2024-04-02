@@ -1,0 +1,61 @@
+/* body {
+    background-color: black;
+    color: white; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+  }
+  .content {
+    padding: 20px;
+    text-align: center;
+  } */
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  h1, label{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    outline: none;
+    color: white;
+  }
+  #student {
+    margin-right: 50px;
+  }
+  #checkbox {
+    margin-bottom: 35px;
+    margin-top: 25px;
+  }
+  
+  .form-group input::placeholder {
+    color: white;
+  }
+  .form-group input[type="submit"] {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+  }
+  .form-group input[type="submit"]:hover {
+    background-color: whitesmoke;
+  }
